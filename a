@@ -1,0 +1,44 @@
+| STT | Câu Prompt (Đã Điều Chỉnh) | Mục đích | Điều chỉnh |
+|---|---|---|---|
+| **I. Tổng quan & Thông tin cơ bản** | | | |
+| 1 | Tóm tắt nội dung chính của file **và xác định flow chính** | Xác định mối quan hệ giữa các thành phần trong hệ thống | Thêm "Xác định flow chính" |
+| 2 | Liệt kê biến, hàm, thư viện **kèm ví dụ code** | Lập bảng tham chiếu thành phần hệ thống | Thêm "Kèm ví dụ code" |
+| **II. Trích xuất API Endpoints** | | | |
+| 3 | Liệt kê API endpoints **bao gồm params** | Xây dựng tài liệu API cơ bản | Thêm "Bao gồm params" |
+| 4 | Tìm mã thực hiện HTTP request **kèm payload mẫu** | Phân tích flow giao tiếp client-server | Thêm "Kèm payload mẫu" |
+| 5 | Mô tả cơ chế **xác thực** (thay thế token) | Đánh giá tính bảo mật API | Thay "token" -> "xác thực" |
+| **III. Phân tích Cấu trúc Dữ liệu** | | | |
+| 6 | Liệt kê object/array quan trọng **kèm định dạng** | Xác định schema dữ liệu chính | Thêm "Kèm định dạng" |
+| 7 | Xác định đoạn mã lưu trữ **và phạm vi lưu trữ** | Đánh giá cơ chế cache/persistence | Thêm "Phạm vi lưu trữ" |
+| 8 | Giải thích cấu trúc logic tính toán **kèm validation rules** | Kiểm tra tính toàn vẹn dữ liệu | Thêm "Validation rules" |
+| **IV. Phân tích Logic Xử lý** | | | |
+| 9 | Tìm mã xử lý logic **và độ phức tạp** | Map business logic với code | Thêm "Độ phức tạp" |
+| 10 | Liệt kê hàm kiểm tra **kèm edge cases** | Đánh giá tính defensive coding | Thêm "Edge cases" |
+| 11 | Xác định sự kiện được lắng nghe **và event triggers** | Phân tích flow tương tác người dùng | Thêm "Event triggers" |
+| **V. Phân tích Realtime với Ably** | | | |
+| 12 | Tìm mã khởi tạo Ably **kiểm tra kết nối SSL** | Kiểm tra cấu hình bảo mật | Thêm "Kết nối SSL" |
+| 13 | Xác định kênh Ably **kèm channel patterns** | Đánh giá cấu trúc pub/sub | Thêm "Channel patterns" |
+| 14 | Liệt kê sự kiện Ably **và data transformation** | Phân tích realtime data flow | Thêm "Data transformation" |
+| 15 | Mô tả cơ chế xác thực Ably **kèm role-based access** | Kiểm tra authorization model | Thêm "Role-based access" |
+| **VI. Xây dựng Model Backend Xử lý Thắng-Thua** | | | |
+| 16 | Phân tích điều kiện đặt cược **kèm time validation** | Validate business rules | Thêm "Time validation" |
+| 17 | Phân tích tính tiền thắng/thua **kèm audit trail** | Kiểm tra financial integrity | Thêm "Audit trail" |
+| 18 | Phân tích quy trình cập nhật vé **kèm transaction logic** | Đảm bảo data consistency | Thêm "Transaction logic" |
+| 19 | Viết model backend **kèm error recovery** | Tổng hợp hệ thống hoàn chỉnh | Thêm "Error recovery" |
+| **VII. Phân tích Lỗi và Điều chỉnh** | | | |
+| 20 | Phân tích thông báo lỗi **kèm log levels** | Cải thiện khả năng debug | Thêm "Log levels" |
+| 21 | Chỉ ra code sai **và code smells** | Tối ưu chất lượng codebase | Thêm "Code smells" |
+| 22 | Phân tích trạng thái kết nối **kèm user feedback** | Đánh giá UX realtime | Thêm "User feedback" |
+| 23 | Phân tích retry logic **kèm retry metrics** | Tăng tính resilient hệ thống | Thêm "Retry metrics" |
+| 24 | Phân tích cơ chế fallback **kèm failover test** | Đảm bảo tính available | Thêm "Failover test" |
+| **VIII. Kiểm tra và Xác minh** | | | |
+| 25 | Kiểm tra API /tickets/latest **kèm load testing** | Đảm bảo API contract | Thêm "Load testing" |
+| 26 | Phân tích retry polling **kèm jitter analysis** | Validate backoff algorithm | Thêm "Jitter analysis" |
+| 27 | Kiểm tra xử lý token **kèm token rotation** | Đánh giá session security | Thêm "Token rotation" |
+| 28 | So sánh response API **kèm schema validation** | Chuẩn hóa data format | Thêm "Schema validation" |
+| 29 | Đánh giá cơ chế fallback **kèm sync mechanism** | Kiểm tra graceful degradation | Thêm "Sync mechanism" |
+| 30 | Kiểm tra xử lý lỗi balance **kèm double-checking** | Đảm bảo financial safety | Thêm "Double-checking" |
+| 31 | Phân tích sự kiện ODDS_CHANGED **kèm conflict resolution** | Validate realtime sync | Thêm "Conflict resolution" |
+| 32 | Kiểm tra cache và version **kèm cache invalidation** | Ngăn race conditions | Thêm "Cache invalidation" |
+| 33 | Xem xét logic xác thực **kèm fraud detection** | Phòng chế gian lận | Thêm "Fraud detection" |
+| 34 | Kiểm tra tính toán tiền **kèm tax calculation** | Đảm bảo regulatory compliance | Thêm "Tax calculation" |
